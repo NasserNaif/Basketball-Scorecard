@@ -1,0 +1,66 @@
+button {
+  padding: 8px;
+  background-color: transparent;
+  border: 1px solid #9aabd8;
+  color: #9aabd8;
+  cursor: pointer;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  border-radius: 9px;
+}
+
+button:hover {
+  background-color: bisque;
+  color: #231942;
+  border: none;
+}
+
+.container {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  background-color: #231942;
+  gap: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 10px;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 90px;
+  width: 140px;
+  border-radius: 10px;
+}
+
+.board > h1 {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  color: #f94f6d;
+  /* font-weight: 700; */
+}
+
+.BTN {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 7px;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .card {
+    padding: 20px 18px;
+  }
+}
